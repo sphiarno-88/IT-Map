@@ -1,0 +1,117 @@
+/* カード全体像 */
+.blogcard {
+  max-width: 600px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 2px;
+  border: 2px solid rgb(226, 174, 213);
+  box-shadow: 0 10px 6px -6px rgba(0,0,0,.1);
+  background: rgb(255, 247, 253);
+  transition: .2s ease-in-out;
+}
+
+.blogcard > a {
+  color: rgb(107, 13, 107);
+  text-decoration: none;
+}
+
+/* float親要素 */
+.blogcard-content {
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+/* 画像 */
+.blogcard-image {
+  display: inline-block;
+  float: right; /* 画像を左に配置したい場合は left に変更 1/2 */
+  width: 150px; /* 画像の表示サイズ変更は数値をpxで変更 1/6 */
+  height: 150px; /* 画像の表示サイズ変更は数値をpxで変更 2/6 */
+  margin: 0 0 5px 5px; /* 画像を左に配置したい場合は 0 10px 5px 0 に変更 2/2 */
+}
+
+.blogcard-image-wrapper {
+  display: inline-block;
+  width: 150px; /* 画像の表示サイズ変更は数値をpxで変更 3/6 */
+  height: 150px; /* 画像の表示サイズ変更は数値をpxで変更 4/6 */
+}
+
+.blogcard-image-wrapper img {
+  width: 150px; /* 画像の表示サイズ変更は数値をpxで変更 5/6 */
+  height: 150px; /* 画像の表示サイズ変更は数値をpxで変更 6/6 */
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* タイトル */
+.blogcard-title {
+  margin: 0 !important;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+/* 引用 */
+.blogcard blockquote {
+  position: static;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  border: 0;
+  background: transparent; /* ブログテンプレートに背景に関する強制力の強い指定がある場合には transparent の直後に !important を付けてください */
+}
+
+.blogcard blockquote::before,
+.blogcard blockquote::after {
+  content: none;
+}
+
+/* 記事概要 */
+.blogcard-description {
+  margin: 1em 0 !important;
+  font-size: 13px;
+  line-height: 1.5 !important;
+}
+
+/* フッター(元記事サイト名とリンク) */
+.blogcard-footer {
+  font-size: 12px;
+}
+
+.blogcard-footer img {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* カードマウスホバー */
+.blogcard:hover {
+  box-shadow: 0 0 5px 5px rgba(184, 81, 145, 0.1);
+}
+
+.blogcard:hover > a {
+  color: rgb(185, 23, 36);
+  text-decoration: none !important;
+}
+
+@font-face {
+  font-family: 'setofont';
+  src: url(fonts/setofont.ttf) format("ttf");
+}
+
+body {
+  background-color: rgb(212, 202, 228);
+  color: rgb(72, 19, 141);
+  font-family: setofont;
+}
+
+img {
+  padding: auto;
+}
+
+.top_image {
+  width: 100%;
+}
+
+.any_banner:hover {
+  box-shadow: 0px 0px 5px 5px rgba(179, 78, 209, 0.4);
+}

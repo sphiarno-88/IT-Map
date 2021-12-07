@@ -1,4 +1,4 @@
-fonts/
-css/
-images/
+#fonts/
+#css/
+#images/
 *.reg
