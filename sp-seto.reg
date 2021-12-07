@@ -1,0 +1,27 @@
+Windows Registry Editor Version 5.00
+
+ 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts]
+
+"Segoe UI (TrueType)"="SETOFONT.TTF"
+
+"Segoe UI Bold (TrueType)"="SETOFONT.TTF"
+
+"Segoe UI Bold Italic (TrueType)"="SETOFONT.TTF"
+
+"Segoe UI Italic (TrueType)"="SETOFONT.TTF"
+
+"Segoe UI Light (TrueType)"="SETOFONT.TTF"
+
+"Segoe UI Semibold (TrueType)"="SETOFONT.TTF"
+
+"Segoe UI Symbol (TrueType)"="SETOFONT.TTF"
+
+ 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
+
+ 
+
+"Segoe UI"="FONT-STYLE"
